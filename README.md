@@ -20,9 +20,9 @@ _Presentada por: Pilar Camargo Márquez_
 
 1.	Realizar el siguiente dashboard que contenga:
 <img src="https://raw.githubusercontent.com/justoneye/PruebaDisenoWeb-Dashboard/main/README%20Files/Imagen1.png" alt="Dashboard" title="Dashboard">
-* Header.
-* Menú lateral con Iconos.
-* Contenido.
+- Header.
+- Menú lateral con Iconos.
+- Contenido.
 
 2.	En el contenido mostrar un formulario con 8 a 10 campos muy parecido al siguiente diseño:
 <img src="https://raw.githubusercontent.com/justoneye/PruebaDisenoWeb-Dashboard/main/README%20Files/Imagen2.png" alt="Formulario" title="Formulario">
