@@ -19,10 +19,12 @@ _Presentada por: Pilar Camargo Márquez_
 ## Tareas
 
 1.	Realizar el siguiente dashboard que contenga:
-<img src="https://raw.githubusercontent.com/justoneye/PruebaDisenoWeb-Dashboard/main/README%20Files/Imagen1.png" alt="Dashboard" title="Dashboard">
 - Header.
 - Menú lateral con Iconos.
 - Contenido.
+
+<img src="https://raw.githubusercontent.com/justoneye/PruebaDisenoWeb-Dashboard/main/README%20Files/Imagen1.png" alt="Dashboard" title="Dashboard">
+
 
 2.	En el contenido mostrar un formulario con 8 a 10 campos muy parecido al siguiente diseño:
 <img src="https://raw.githubusercontent.com/justoneye/PruebaDisenoWeb-Dashboard/main/README%20Files/Imagen2.png" alt="Formulario" title="Formulario">
@@ -43,7 +45,8 @@ Como proyecto base para iniciar y entregar este proyecto se ha usado el tema [SB
 
 Para llevar a cabo el ejercicio del contenido de la página (imágenes, íconos, logos, etc.) fueron tomados de los siguientes recursos gratuitos o libres:
 
-- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Font Awesome Icons](https://fontawesome.com/icons)
+- [freepik](https://www.freepik.es/)
 
 
 ## Repositorio GitHub 
