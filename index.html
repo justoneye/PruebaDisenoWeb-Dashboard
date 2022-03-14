@@ -31,8 +31,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <i class="fa-brands fa-gitkraken fa-2x"></i>
                 </div>
             </a>
 
@@ -42,7 +42,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fa-solid fa-house-user"></i>
                     <span>Home</span>
                 </a>
             </li>
@@ -50,7 +50,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="form.html">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-search fa-fw"></i>
                     <span>Search</span>
                 </a>
             </li>
@@ -58,7 +58,7 @@
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-wrench"></i>
+                    <i class="fa-solid fa-people-carry-box"></i>
                     <span>Team</span>
                 </a>
             </li>
@@ -66,7 +66,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-folder"></i>
+                    <i class="fa-solid fa-chart-line"></i>
                     <span>Reports</span>
                 </a>
             </li>
@@ -74,14 +74,14 @@
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fa-regular fa-calendar"></i>
                     <span>Events</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fa-solid fa-toolbox"></i>
                     <span>Options</span></a>
             </li>
         </ul>
@@ -116,16 +116,51 @@
                     </form>
 
                     <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto">
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-search fa-fw"></i>
                             </a>
-                        </li>                                    
+                            
+                            <!-- Dropdown - Messages -->                           
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">                                                        
+                                    <div class="input-group">                                    
+                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">                                                            
+                                        <div class="input-group-append">                                                                
+                                            <button class="btn btn-primary" type="button">                                                                    
+                                                <i class="fas fa-search fa-sm"></i>                                                                
+                                            </button>                                                            
+                                        </div>                                                        
+                                    </div>                                                   
+                                </form>                                                
+                            </div>                                            
+                        </li>
+                    
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <i class="fa-regular fa-envelope fa-fw"></i>
+ 
+                                 <!-- Counter - Messages -->
+                                 <span class="badge badge-danger badge-counter"></span>
+                             </a>
+                         </li>                        
+                                            
+                        <!-- Nav Item - Alerts -->
+                                            
+                        <li class="nav-item dropdown no-arrow mx-1">                                             
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                   
+                                <i class="fa-regular fa-bell"></i>
+                                                    
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter rounded-circle">3</span>                                                
+                            </a>
+        
 
+                
                         <!-- Nav Item - User Information -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -155,10 +190,10 @@
                                     <div class="row align-items-center">
                                         <div class="col mr-2">
                                             <div class="align-items-center text-center text-xs text-white mb-1">
-                                                <i class="fas fa-calendar fa-2x text-white-300"></i>
+                                                <i class="fa-regular fa-envelope"></i>
                                                 <br/>
                                                 <br/>
-                                                <div class="h5 mb-0 text-white">40K</div>
+                                                <div class="h5 mb-0">40K</div>
                                                 Messages
                                             </div>
                                         </div>
@@ -174,10 +209,10 @@
                                     <div class="row align-items-center">
                                         <div class="col mr-2">
                                             <div class="align-items-center text-center text-xs text-white mb-1">
-                                                <i class="fas fa-calendar fa-2x text-white-300"></i>
+                                                <i class="fa-regular fa-circle-check"></i>
                                                 <br/>
                                                 <br/>
-                                                <div class="h5 mb-0 text-white">132K</div>
+                                                <div class="h5 mb-0">132K</div>
                                                 Check-ins
                                             </div>
                                         </div>
@@ -193,10 +228,10 @@
                                     <div class="row align-items-center">
                                         <div class="col mr-2">
                                             <div class="align-items-center text-center text-xs text-white mb-1">
-                                                <i class="fas fa-calendar fa-2x text-white-300"></i>
+                                                <i class="fa-regular fa-file"></i>
                                                 <br/>
                                                 <br/>
-                                                <div class="h5 mb-0 text-white">52K</div>
+                                                <div class="h5 mb-0">52K</div>
                                                 Files
                                             </div>
                                         </div>
@@ -212,10 +247,10 @@
                                     <div class="row align-items-center">
                                         <div class="col mr-2">
                                             <div class="align-items-center text-center text-xs text-white mb-1">
-                                                <i class="fas fa-calendar fa-2x text-white-300"></i>
+                                                <i class="fa-solid fa-people-carry-box"></i>
                                                 <br/>
                                                 <br/>
-                                                <div class="h5 mb-0 text-white">87K</div>
+                                                <div class="h5 mb-0">87K</div>
                                                 Users
                                             </div>
                                         </div>
@@ -241,7 +276,7 @@
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col mr-2">
                                                             <div class="align-items-center text-center text-xs mb-1">
-                                                                <i class="fas fa-calendar fa-2x text-black-300"></i>
+                                                                <i class="fa-brands fa-twitter fa-3x"></i>
                                                                 <br/>
                                                                 <br/>
                                                                 <div class="h5 mb-0 text-black-500 font-weight-bold">87K</div>
@@ -260,7 +295,7 @@
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col mr-2">
                                                             <div class="align-items-center text-center text-xs mb-1">
-                                                                <i class="fas fa-calendar fa-2x text-black-300"></i>
+                                                                <i class="fa-brands fa-vimeo fa-3x"></i>
                                                                 <br/>
                                                                 <br/>
                                                                 <div class="h5 mb-0 text-dark-500 font-weight-bold">87K</div>
@@ -279,7 +314,7 @@
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col mr-2">
                                                             <div class="align-items-center text-center text-xs mb-1">
-                                                                <i class="fas fa-calendar fa-2x text-black-300"></i>
+                                                                <i class="fa-brands fa-facebook fa-3x"></i>
                                                                 <br/>
                                                                 <br/>
                                                                 <div class="h5 mb-0 text-dark-500 font-weight-bold">87K</div>
@@ -298,7 +333,7 @@
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col mr-2">
                                                             <div class="align-items-center text-center text-xs mb-1">
-                                                                <i class="fas fa-calendar fa-2x text-black-300"></i>
+                                                                <i class="fa-brands fa-discord fa-3x"></i>
                                                                 <br/>
                                                                 <br/>
                                                                 <div class="h5 mb-0 text-dark-500 font-weight-bold">87K</div>
@@ -317,8 +352,7 @@
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col mr-2">
                                                             <div class="align-items-center text-center text-xs mb-1">
-                                                                <i class="fas fa-calendar fa-2x text-black-300"></i>
-                                                                <br/>
+                                                                <i class="fa-brands fa-github fa-3x"></i>
                                                                 <br/>
                                                                 <br/>
                                                                 <div class="h5 mb-0 text-dark-500 font-weight-bold">87K</div>
@@ -337,8 +371,7 @@
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col mr-2">
                                                             <div class="align-items-center text-center text-xs mb-1">
-                                                                <i class="fas fa-calendar fa-2x text-black-300"></i>
-                                                                <br/>
+                                                                <i class="fa-brands fa-google fa-3x"></i>
                                                                 <br/>
                                                                 <br/>
                                                                 <div class="h5 mb-0 text-dark-500 font-weight-bold">87K</div>
